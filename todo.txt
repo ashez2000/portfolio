@@ -1,0 +1,8 @@
+- dot color []
+- footer para links colors []
+- project card setings []
+- selected projects []
+  - provide proper read me []
+  - working live links []
+- hover effects in Footer Links []
+- add emoji here there
