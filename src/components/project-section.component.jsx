@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-import { ProjectList } from '../data'
+import { projectList } from '../data'
 import ProjectCart from './project-card.component'
 
 const ProjectSection = () => {
@@ -9,7 +9,7 @@ const ProjectSection = () => {
       <Container>
         <h2 className="project-sec">PROJECTS.</h2>
         <div className="projects">
-          {ProjectList.map((project) => (
+          {projectList.map((project) => (
             <ProjectCart {...project} />
           ))}
         </div>

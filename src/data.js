@@ -1,35 +1,37 @@
-export const ProjectList = [
+export const projectList = [
   {
-    title: 'Bootcamp-api',
+    title: 'bootcamp-api',
     description:
-      'adsa anf alklanean kfaef na;sklm a;ldfma l;fdm;e lda; dal l;w;',
+      'bootcamp-api is a node backend service for organizing online bootcamps.',
+    stack: ['node', 'mongodb'],
+    github: 'https://github.com/ashez2000/bootcamp-api',
+    live: 'https://bootcamp-api-ashez.herokuapp.com',
   },
   {
-    title: 'Bootcamp-api',
-    description:
-      'adsa anf alklanean kfaef na;sklm a;ldfma l;fdm;e lda; dal l;w;',
+    title: 'crwn-ecom',
+    description: 'crwn is fashion e-commerce website.',
+    stack: ['react', 'firebase'],
+    github: 'https://github.com/ashez2000/crwn-ecom',
+    live: 'https://crwn-ecom-ashez.herokuapp.com',
   },
   {
-    title: 'Bootcamp-api',
-    description:
-      'adsa anf alklanean kfaef na;sklm a;ldfma l;fdm;e lda; dal l;w;',
+    title: 'contact-keeper',
+    description: 'contact management tool built with react and node.',
+    stack: ['node', 'react'],
+    github: 'https://github.com/ashez2000/contact-keeper',
+    live: 'https://contack-keeper.herokuapp.com',
   },
 ]
 
-export const ColorTags = {
-  node: {
-    color: '#D0F8D2',
-  },
-  react: {
-    color: '#A4C2F7',
-  },
-  firebse: {
-    color: '#EDE09C',
-  },
+export const colorTags = {
+  node: '#D0F8D2',
+  react: '#A4C2F7',
+  firebase: '#EDE09C',
+  mongodb: '#B5FFC5',
 }
 
-export const FooterLinks = {
-  instagram: '',
-  facebook: '',
+export const footerLinks = {
+  instagram: 'https://www.instagram.com/keymon_ash',
+  facebook: 'https://www.facebook.com/aswin.gangadharan.92',
   github: 'https://github.com/ashez2000',
 }

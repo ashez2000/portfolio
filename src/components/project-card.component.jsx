@@ -1,29 +1,29 @@
 import styled from 'styled-components'
-import { ColorTags } from '../data'
+import { colorTags } from '../data'
 
-const ProjectCard = ({ title, description }) => {
+const ProjectCard = ({ title, description, stack, github, live }) => {
   return (
     <ProjectCardContainer>
       <Title style={{ color: '#E94560' }}>{title}</Title>
       <Description>{description}</Description>
       <Tags>
-        <Chip>node</Chip>
-        <Chip>raect</Chip>
-        <Chip>firebase</Chip>
+        {stack.map((s) => (
+          <Chip color={colorTags[s]}>{s}</Chip>
+        ))}
       </Tags>
       <div className="project-links">
         <a
-          href="asdas"
+          href={github}
           target="_blank"
-          rel="norefernce"
+          rel="noreferrer"
           className="project-a-link"
         >
           code
         </a>
         <a
-          href="dasd"
+          href={live}
           target="_blank"
-          rel="norefernce"
+          rel="noreferrer"
           className="project-a-link"
         >
           live
@@ -64,7 +64,7 @@ const Chip = styled.span`
   margin-right: 10px;
   padding: 5px 8px;
   border-radius: 4px;
-  background-color: ${ColorTags.node.color};
+  background-color: ${(props) => props.color};
 `
 
 export default ProjectCard

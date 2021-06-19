@@ -4,7 +4,7 @@ import { ReactComponent as FbIcon } from '../icons/footer-icons/fb.svg'
 import { ReactComponent as InstaIcon } from '../icons/footer-icons/insta.svg'
 import { ReactComponent as GtIcon } from '../icons/footer-icons/git.svg'
 
-import { FooterLinks } from '../data'
+import { footerLinks } from '../data'
 
 const Footer = () => {
   return (
@@ -19,7 +19,7 @@ const Footer = () => {
           </FooterText>
           <SocialLinks>
             <a
-              href={FooterLinks.github}
+              href={footerLinks.github}
               target="_blank"
               rel="noreferrer"
               className="social-links"
@@ -27,7 +27,7 @@ const Footer = () => {
               <FbIcon />
             </a>
             <a
-              href={FooterLinks.github}
+              href={footerLinks.github}
               target="_blank"
               rel="noreferrer"
               className="social-links"
@@ -35,7 +35,7 @@ const Footer = () => {
               <InstaIcon />
             </a>
             <a
-              href={FooterLinks.github}
+              href={footerLinks.github}
               target="_blank"
               rel="noreferrer"
               className="social-links"
