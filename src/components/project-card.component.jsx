@@ -4,33 +4,27 @@ import { ColorTags } from '../data'
 const ProjectCard = ({ title, description }) => {
   return (
     <ProjectCardContainer>
-      <Title>{title}</Title>
+      <Title style={{ color: '#E94560' }}>{title}</Title>
       <Description>{description}</Description>
       <Tags>
-        <Chip>
-          <p>node</p>
-        </Chip>
-        <Chip>
-          <p>raect</p>
-        </Chip>
-        <Chip>
-          <p>firebase</p>
-        </Chip>
+        <Chip>node</Chip>
+        <Chip>raect</Chip>
+        <Chip>firebase</Chip>
       </Tags>
-      <div className='project-links'>
+      <div className="project-links">
         <a
-          href='asdas'
-          target='_blank'
-          rel='norefernce'
-          className='project-a-link'
+          href="asdas"
+          target="_blank"
+          rel="norefernce"
+          className="project-a-link"
         >
           code
         </a>
         <a
-          href='dasd'
-          target='_blank'
-          rel='norefernce'
-          className='project-a-link'
+          href="dasd"
+          target="_blank"
+          rel="norefernce"
+          className="project-a-link"
         >
           live
         </a>
@@ -48,12 +42,13 @@ const ProjectCardContainer = styled.div`
       margin-right: 10px;
       padding: 5px 8px;
       border-radius: 4px;
-      background-color: whitesmoke;
+      background-color: #e3e3e6;
     }
   }
 `
 const Title = styled.h2`
-  font-size: 30px;
+  color: '#bbbbbb';
+  font-size: 25px;
   margin-bottom: 20px;
 `
 const Description = styled.p`

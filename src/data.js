@@ -14,11 +14,6 @@ export const ProjectList = [
     description:
       'adsa anf alklanean kfaef na;sklm a;ldfma l;fdm;e lda; dal l;w;',
   },
-  {
-    title: 'Bootcamp-api',
-    description:
-      'adsa anf alklanean kfaef na;sklm a;ldfma l;fdm;e lda; dal l;w;',
-  },
 ]
 
 export const ColorTags = {
