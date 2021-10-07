@@ -1,10 +1,10 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
-import { ReactComponent as FbIcon } from '../icons/footer-icons/fb.svg'
-import { ReactComponent as InstaIcon } from '../icons/footer-icons/insta.svg'
-import { ReactComponent as GtIcon } from '../icons/footer-icons/git.svg'
+import { ReactComponent as FbIcon } from '../icons/footer-icons/fb.svg';
+import { ReactComponent as InstaIcon } from '../icons/footer-icons/insta.svg';
+import { ReactComponent as GtIcon } from '../icons/footer-icons/git.svg';
 
-import { footerLinks } from '../data'
+import { footerLinks } from '../data';
 
 const Footer = () => {
   return (
@@ -14,7 +14,7 @@ const Footer = () => {
           <FooterText>
             <p className="footer-text">
               Designed and developed by Aswin Gangadharan.
-              <br /> Built with react and ❤️. Hosted on netlyfy.
+              <br /> Built with react and ❤️. Hosted on netlify.
             </p>
           </FooterText>
           <SocialLinks>
@@ -46,15 +46,15 @@ const Footer = () => {
         </div>
       </Container>
     </FooterContainer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
 
 const FooterContainer = styled.div`
   margin-top: 100px;
   margin-bottom: 100px;
-`
+`;
 const Container = styled.div`
   max-width: 1100px;
   margin: auto;
@@ -68,14 +68,14 @@ const Container = styled.div`
       flex-direction: column;
     }
   }
-`
+`;
 const FooterText = styled.div`
   .footer-text {
     @media only screen and (max-width: 600px) {
       font-size: 14px;
     }
   }
-`
+`;
 
 const SocialLinks = styled.div`
   display: flex;
@@ -93,4 +93,4 @@ const SocialLinks = styled.div`
   @media only screen and (max-width: 600px) {
     margin-top: 30px;
   }
-`
+`;
