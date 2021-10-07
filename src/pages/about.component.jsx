@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 const About = () => {
   return (
@@ -7,14 +7,13 @@ const About = () => {
         <div className="about-page">
           <h2 className="about-title">About Me .</h2>
           <p className="para">
-            I am a software enthusiast from India. Current I'm doing my
+            I am a software enthusiast from India. Currently I'm doing my
             engneering in Information Technology from GEC Barton Hill.
           </p>
           <p className="para">
             I am an expert in JavaScript, working primarily in React and Node,
             but I have experience working in a wide range of technologies
-            including Node & Express, MongoDB, PostgreSQL, GrapgQl, REST API
-            design, Docker.
+            including Node & Express, MongoDB, REST API design and Golang.
           </p>
           <p className="para">
             Other things I love to do ...
@@ -27,10 +26,10 @@ const About = () => {
         </div>
       </Container>
     </AboutContainer>
-  )
-}
+  );
+};
 
-const AboutContainer = styled.div``
+const AboutContainer = styled.div``;
 const Container = styled.div`
   max-width: 1100px;
   margin: 0 auto;
@@ -77,6 +76,6 @@ const Container = styled.div`
       }
     }
   }
-`
+`;
 
-export default About
+export default About;
